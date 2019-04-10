@@ -1,0 +1,79 @@
+.add-customer {
+
+  .title {
+    font-size: 1.429em;
+    color: #676767;
+    padding-top: 67.45px;
+    padding-bottom: 45px;
+  }
+
+  // first name, last name, dob
+  .app-text-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    margin-top: 1em;
+
+    @mixin text-field-placeholder ($color, $fontSize) {
+      font-size: $fontSize;
+      color: $color;
+    }
+
+    img.icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 1.286em;
+    }
+
+    input.text-field {
+      outline: none;
+      border: none;
+      border-bottom: 0.5px solid #C1C1C1;
+      width: 100%;
+      padding-left: 30px;
+      font-size: 0.857em;
+      color: #8E8E8E;
+      // padding-top: 0.786em
+      padding-bottom: 0.786em;
+      background: white!important;
+    }
+
+    input.text-field::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      @include text-field-placeholder(0.857em, #8E8E8E);
+    }
+
+    input.text-field:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      @include text-field-placeholder(0.857em, #8E8E8E);
+    }
+
+    input.text-field:-ms-input-placeholder { /* Microsoft Edge */
+      @include text-field-placeholder(0.857em, #8E8E8E);
+    }
+  }
+  // /first name, last name, dob
+
+
+  // add customer
+  .app-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+
+    margin-top: 2.2em;
+
+    .btn {
+      background: #333333;
+      color: #ffffff;
+      font-size: 0.857em;
+      border-radius: 1.786em;
+      height: 2.857em;
+      width: 9.286em;
+      text-transform: capitalize;
+      font-weight: 600;
+      outline: none;
+    }
+  }
+  // /add customer
+}

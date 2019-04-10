@@ -1,0 +1,41 @@
+.customers {
+
+  .desktop-add-customer-container {
+    height: calc(100vh - 51px);
+  }
+
+  .add-new-customer-dialog {
+    .mobile-add-customer-container {
+      height: calc(100vh - 51px);
+    }
+
+    .close-dialog-btn {
+      position: fixed;
+      top: 7.2em;
+      right: 1em;
+
+      //background: #333333;
+      font-weight: 600;
+      color: #333333;
+      border: 1px solid #999999;
+    }
+  }
+
+  .customers-list {
+    height: calc(100vh - 51px);
+    border-left: 1px solid #eaeaea;
+  }
+
+  .add-new-customer {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+
+    background: #333333;
+
+    i.icon {
+      font-weight: 600;
+      color: #ffffff;
+    }
+  }
+}

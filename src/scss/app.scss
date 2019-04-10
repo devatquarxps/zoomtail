@@ -1,0 +1,44 @@
+#q-app {
+  font-family: Avenir;
+}
+
+/* font responsiveness */
+/* xs */
+@media (max-width: 600px) {
+  #q-app {
+    font-size: 14px;
+  }
+}
+/* sm */
+@media (min-width: 601px) and (max-width: 960px) {
+  #q-app {
+    font-size: 14px;
+  }
+}
+/* md */
+@media (min-width: 961px) and (max-width: 1264px) {
+  #q-app {
+    font-size: 16px;
+  }
+}
+/* lg */
+@media (min-width: 1265px) and (max-width: 1904px) {
+  #q-app {
+    font-size: 16px;
+  }
+}
+/* xl */
+@media (min-width: 1905px) {
+  #q-app {
+    font-size: 20px;
+  }
+}
+/* /font responsiveness */
+
+// overwriting quasar classes.
+.q-toolbar {
+  .q-btn .q-icon, .q-btn .q-spinner {
+    color: #333333!important;
+  }
+}
+// /overwriting quasar classes.
