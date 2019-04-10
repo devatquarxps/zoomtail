@@ -1,7 +1,7 @@
 To run on local server:
 
 ###### if not installed, install node & npm 
-[install node & npm](https://pages.github.com/)
+[install node & npm](https://nodejs.org/en/)
 
 ###### if not installed, install quasar & vue cli 
 ```
