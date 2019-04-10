@@ -12,7 +12,7 @@ npm install -g quasar-cli
 ###### (3) clone repo, (4) goto repo folder, (5) install dependencies, (6) run localserver
 
 ```
-git clone https://github.com/devatquarxps/zoomtail.git`
+git clone https://github.com/devatquarxps/zoomtail.git
 cd zoomtail
 npm i
 quasar dev
