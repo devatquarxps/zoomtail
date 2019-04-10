@@ -1,9 +1,9 @@
 To run on local server:
 
-###### if not installed, (1) install node & npm 
+###### if not installed, (1) install node & npm
 [install node & npm](https://nodejs.org/en/)
 
-###### if not installed, (2) install quasar & vue cli 
+###### if not installed, (2) install quasar & vue cli
 ```
 npm install -g vue-cli
 npm install -g quasar-cli
